@@ -1,0 +1,115 @@
+# REQUIRED ATTRIBUTES FOR SAMPLE
+ATTR,Sample_contact_state,Example: MD
+ATTR,Sample_extract_protocol_ch2,Example: Total RNA was extracted using TRIzol. Tissues were homogenized in 1ml of TRIzol reagent per 100 mg tissue using Qiagen Tissuelyzer. 0.2 ml of chloroform was added to 1 ml TRIzol. Sample was vortexed for 15 secs, and centrifuged for 15 minutes at 10,000 rpm to separate the aqueous phase from the organic phase. The aqueous phase was transferred to a fresh tube and precipitated with 0.5 ml of isopropanol per 1.0ml TRIzol added to tissue. Sample was incubated at room temperature for 10 minutes and centrifuged at 10,000 rpm for 10 minutes. The pellet was washed with 75% ethanol once, and air-dried. The dry pellet was resuspended in water prior to analysis by the Agilent Bioanalyzer for RNA integrity.
+ATTR,Sample_hyb_protocol,Example: Oligoarray control targets and hybridization buffer (Agilent In Situ Hybridization Kit Plus) were added, and samples were applied to microarrays enclosed in Agilent SureHyb-enabled hybridization chambers. Hybridization was performed in a rotating oven overnight at 57 degrees C. After hybridization, slides were washed sequentially.
+ATTR,Sample_extract_protocol_ch1,Example: Total RNA was extracted using TRIzol. Tissues were homogenized in 1ml of TRIzol reagent per 100 mg tissue using Qiagen Tissuelyzer. 0.2 ml of chloroform was added to 1 ml TRIzol. Sample was vortexed for 15 secs, and centrifuged for 15 minutes at 10,000 rpm to separate the aqueous phase from the organic phase. The aqueous phase was transferred to a fresh tube and precipitated with 0.5 ml of isopropanol per 1.0ml TRIzol added to tissue. Sample was incubated at room temperature for 10 minutes and centrifuged at 10,000 rpm for 10 minutes. The pellet was washed with 75% ethanol once, and air-dried. The dry pellet was resuspended in water prior to analysis by the Agilent Bioanalyzer for RNA integrity.
+ATTR,Sample_platform_id,Example: GPL13742
+ATTR,Sample_contact_fax,Example: 3014968709
+ATTR,Sample_title,Example: Pretreatment gastric cancer sample, 251_0
+ATTR,Sample_supplementary_file,Example: ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/samples/GSM744nnn/GSM744326/GSM744326.txt.gz
+ATTR,Sample_organism_ch1,Example: Homo sapiens
+ATTR,Sample_organism_ch2,Example: Homo sapiens
+ATTR,Sample_contact_zip/postal_code,Example: 20892
+ATTR,Sample_last_update_date,Example: Dec 16 2011
+ATTR,Sample_contact_country,Example: USA
+ATTR,Sample_geo_accession,Example: GSM744326
+ATTR,Sample_channel_count,Example: 2
+ATTR,Sample_label_protocol_ch2,Example: The total RNAs containing the microRNAs were labeled using the miRCURY™ LNA microRNA Array Power Labeling kit (Exiqon Inc, Woburn, MA).  The 3’-end of the total RNA was enzymatically labeled with the Hy3 and/or Hy5 fluorescent dye (Exiqon) by incubation with T4 RNA ligase for 1 hr, and the labeled RNA was hybridized onto the microarrays without the need for column purification.
+ATTR,Sample_label_protocol_ch1,Example: The total RNAs containing the microRNAs were labeled using the miRCURY™ LNA microRNA Array Power Labeling kit (Exiqon Inc, Woburn, MA).  The 3’-end of the total RNA was enzymatically labeled with the Hy3 and/or Hy5 fluorescent dye (Exiqon) by incubation with T4 RNA ligase for 1 hr, and the labeled RNA was hybridized onto the microarrays without the need for column purification.
+ATTR,Sample_taxid_ch1,Example: 9606
+ATTR,Sample_contact_email,Example: JEGreen@mail.nih.gov
+ATTR,Sample_taxid_ch2,Example: 9606
+ATTR,Sample_contact_name,Example: Jeffrey,E,Green
+ATTR,Sample_contact_phone,Example: 3014355193
+ATTR,Sample_submission_date,Example: Jun 17 2011
+ATTR,Sample_contact_institute,Example: NCI
+ATTR,Sample_label_ch2,Example: Hy5
+ATTR,Sample_data_processing,Example: Images were quantified using Agilent Feature Extraction Software (version A.8.5.1.1). Data were Lowess normalized.
+ATTR,Sample_data_row_count,Example: 2296
+ATTR,Sample_type,Example: RNA
+ATTR,Sample_source_name_ch1,Example: endoscopic biopsy, cancer
+ATTR,Sample_molecule_ch1,Example: total RNA
+ATTR,Sample_molecule_ch2,Example: total RNA
+ATTR,Sample_source_name_ch2,Example: Pooled gastric cell lines
+ATTR,Sample_status,Example: Public on Dec 16 2011
+ATTR,Sample_contact_address,Example: Rm 4054, 37 Convent Drive
+ATTR,Sample_growth_protocol_ch2,Example: Endoscopic biopsies.
+ATTR,Sample_growth_protocol_ch1,Example: Endoscopic biopsies.
+ATTR,Sample_characteristics_ch1,Example: treatment: none
+ATTR,Sample_series_id,Example: GSE30070
+ATTR,Sample_characteristics_ch2,Example: sample type: reference RNA
+ATTR,Sample_label_ch1,Example: Hy3
+ATTR,Sample_scan_protocol,Example: Scanned on an Agilent G2565AA scanner.
+ATTR,Sample_treatment_protocol_ch1,Example: Pre- and post-cisplatin/fluorouracil treatment.
+ATTR,Sample_treatment_protocol_ch2,Example: Pre- and post-cisplatin/fluorouracil treatment.
+ATTR,Sample_contact_city,Example: Bethesda
+# REQUIRED DATA INFORMATION FOR SAMPLE
+INFO,ID_REF,Example: 
+INFO,VALUE,Example: Lowess-normalized log10 ratio (Hy3/Hy5) representing test/reference
+INFO,INV_VALUE,Example: Lowess-normalized log10 ratio (Hy5/Hy3)
+# REQUIRED ATTRIBUTES FOR SERIES
+ATTR,Series_platform_taxid,Example: 9606
+ATTR,Series_contact_fax,Example: 3014968709
+ATTR,Series_sample_taxid,Example: 9606
+ATTR,Series_contact_name,Example: Jeffrey,E,Green
+ATTR,Series_status,Example: Public on Dec 16 2011
+ATTR,Series_contact_email,Example: JEGreen@mail.nih.gov
+ATTR,Series_relation,Example: BioProject: http://www.ncbi.nlm.nih.gov/bioproject/PRJNA144007
+ATTR,Series_contact_state,Example: MD
+ATTR,Series_contact_address,Example: Rm 4054, 37 Convent Drive
+ATTR,Series_contact_phone,Example: 3014355193
+ATTR,Series_contact_city,Example: Bethesda
+ATTR,Series_platform_id,Example: GPL13742
+ATTR,Series_sample_id,Example: GSM744401
+ATTR,Series_overall_design,Example: 90 pre-treatment gastric cancer samples, 34 healthy volunteers, 8 post-treatment samples.
+ATTR,Series_pubmed_id,Example: 22112324
+ATTR,Series_contributor,Example: Jeffrey,E,Green
+ATTR,Series_summary,Example: Biopsy samples were collected prior to chemotherapy from 90 gastric cancer patients treated with CF and from 34 healthy volunteers.  At the time of disease progression, post-treatment samples were collected from 8 clinical responders. miRNA expression was determined using a custom-designed Agilent microarray.  In order to identify an miRNA signature for chemotherapy resistance, we correlated miRNA expression levels with the time to progression (TTP) after CF.
+ATTR,Series_type,Example: Non-coding RNA profiling by array
+ATTR,Series_submission_date,Example: Jun 17 2011
+ATTR,Series_supplementary_file,Example: ftp://ftp.ncbi.nlm.nih.gov/pub/geo/DATA/supplementary/series/GSE30070/GSE30070_RAW.tar
+ATTR,Series_contact_zip/postal_code,Example: 20892
+ATTR,Series_geo_accession,Example: GSE30070
+ATTR,Series_contact_country,Example: USA
+ATTR,Series_last_update_date,Example: Mar 23 2012
+ATTR,Series_title,Example: Gastric cancer: cancer vs. normal, chemoresistance signature that correlates with time to progression of disease
+ATTR,Series_contact_institute,Example: NCI
+# REQUIRED DATA INFORMATION FOR SERIES
+# REQUIRED ATTRIBUTES FOR DATABASE
+ATTR,Database_email,Example: geo@ncbi.nlm.nih.gov
+ATTR,Database_name,Example: Gene Expression Omnibus (GEO)
+ATTR,Database_institute,Example: NCBI NLM NIH
+ATTR,Database_web_link,Example: http://www.ncbi.nlm.nih.gov/geo
+# REQUIRED DATA INFORMATION FOR DATABASE
+# REQUIRED ATTRIBUTES FOR PLATFORM
+ATTR,Platform_geo_accession,Example: GPL13742
+ATTR,Platform_submission_date,Example: Jun 17 2011
+ATTR,Platform_manufacturer,Example: Agilent
+ATTR,Platform_taxid,Example: 9606
+ATTR,Platform_contact_state,Example: MD
+ATTR,Platform_contact_zip/postal_code,Example: 20892
+ATTR,Platform_last_update_date,Example: Dec 16 2011
+ATTR,Platform_contact_address,Example: Rm 4054, 37 Convent Drive
+ATTR,Platform_status,Example: Public on Dec 16 2011
+ATTR,Platform_data_row_count,Example: 2296
+ATTR,Platform_contact_city,Example: Bethesda
+ATTR,Platform_technology,Example: in situ oligonucleotide
+ATTR,Platform_contact_email,Example: JEGreen@mail.nih.gov
+ATTR,Platform_manufacture_protocol,Example: See Agilent website (www.agilent.com)
+ATTR,Platform_contact_fax,Example: 3014968709
+ATTR,Platform_distribution,Example: custom-commercial
+ATTR,Platform_title,Example: Agilent-015868 Human miRNA Microarray (miRBase release 9.0 Feature Number version)
+ATTR,Platform_contact_phone,Example: 3014355193
+ATTR,Platform_organism,Example: Homo sapiens
+ATTR,Platform_contact_institute,Example: NCI
+ATTR,Platform_contact_country,Example: USA
+ATTR,Platform_contact_name,Example: Jeffrey,E,Green
+# REQUIRED DATA INFORMATION FOR PLATFORM
+INFO,Description,Example: 
+INFO,SEQUENCE,Example: Sequence of oligonucleotide
+INFO,SystematicName,Example: 
+INFO,miRNA_ID,Example: miRNA name LINK_PRE:"http://www.mirbase.org/cgi-bin/query.pl?terms="
+INFO,ProbeName,Example: 
+INFO,SPOT_ID,Example: 
+INFO,ID,Example: Agilent Feature Number
+# END OF SETTING CONFIGARATION 
